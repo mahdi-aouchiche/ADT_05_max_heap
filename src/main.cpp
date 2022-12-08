@@ -43,21 +43,6 @@ int main(){
         
         //fix buffer just in case non-numeric choice entered
         choice = menu();
-
-        // if (choice == 1) {
-        //     int priority, jobNumber, numPages;
-        //     cout << "Enter print job to enqueue (priority, job Number, number of pages): ";
-        //     cin>>priority>>jobNumber>>numPages;
-        //     cout << endl;
-
-        //     max_heap.enqueue(new PrintJob(priority, jobNumber, numPages));
-        // } else if (choice == 2) {
-        //     max_heap.print();
-        // } else if (choice == 3) {
-        //     max_heap.dequeue();
-        // } 
-        // //fix buffer just in case non-numeric choice entered
-        // choice = menu();
     }
     return 0;
 }
