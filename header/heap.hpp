@@ -46,7 +46,7 @@ class Heap {
    */
    void trickleDown(int);
     
-   /* This function is called by dequeue function
+   /* This function is called by enqueue function
       to move the new job node up the heap to the appropriate
       location to avoid violating max heap properties
    */
